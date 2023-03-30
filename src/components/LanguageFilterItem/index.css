@@ -1,0 +1,13 @@
+.filter-btn {
+  background-color: transparent;
+  border-width: 0px;
+  font-weight: 500;
+  font-family: Roboto;
+  margin-right: 10px;
+}
+
+.active {
+  border: 1px solid #0284c7;
+  border-radius: 10px;
+  color: #0284c7;
+}

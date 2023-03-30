@@ -1,0 +1,40 @@
+.language-filter-con {
+  display: flex;
+  list-style: none;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.main-head {
+  font-family: Lobster;
+  font-size: 38px;
+  text-align: center;
+}
+
+.repo-components {
+  margin-top: 20px;
+  align-self: stretch;
+  list-style: none;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .repo-components {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
+
+.loader-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
